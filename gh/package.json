@@ -20,6 +20,7 @@
 		"@nextui-org/switch": "2.2.3",
 		"@nextui-org/system": "2.4.3",
 		"@nextui-org/theme": "2.4.1",
+		"@radix-ui/react-accordion": "^1.2.2",
 		"@radix-ui/react-dialog": "^1.1.4",
 		"@react-aria/ssr": "3.9.7",
 		"@react-aria/visually-hidden": "3.8.18",

@@ -3,6 +3,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight, Laptop, Lock, Zap, Shield, Star } from 'lucide-react';
 import Link from 'next/link';
 
+import Footer from '@/components/footer';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#0a0a0a]">
@@ -100,6 +102,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
