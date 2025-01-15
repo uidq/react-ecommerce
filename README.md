@@ -11,10 +11,10 @@
 
 # How can i run it?
 
-\`\`\`
+```
 npm install
 npm run dev
-\`\`\`
+```
 
 # Thoughts on my design that i could've made better
 
