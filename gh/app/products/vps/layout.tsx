@@ -1,4 +1,4 @@
-export default function Products({
+export default function VPS({
   children,
 }: {
   children: React.ReactNode;

@@ -1,4 +1,4 @@
-export default function Products({
+export default function WEBHOSTING({
   children,
 }: {
   children: React.ReactNode;
