@@ -42,4 +42,7 @@ Contact Page (15.1.2025)
 Product Page (15.1.2025)
 ![Screenshot 2025-01-15 154431](https://github.com/user-attachments/assets/2632130a-54f9-41e0-a75d-cc2b03865ac2)
 
+Documentation Page (15.1.2025)
+![Screenshot 2025-01-15 210903](https://github.com/user-attachments/assets/32ddf393-0b2b-4a9b-872e-0a3bdd246055)
+
 Every product page will look the same until i update them to have something unique for each one of them, i just have to think whats that unique going to be.
