@@ -71,7 +71,7 @@ npm run dev
   );
 };
 
-const DocPage: React.FC = () => {
+const Doc: React.FC = () => {
   const [activeSection, setActiveSection] = useState<string>('Getting Started');
   const [activeItem, setActiveItem] = useState<string>('Introduction');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -176,4 +176,4 @@ const DocPage: React.FC = () => {
   );
 };
 
-export default DocPage;
+export default Doc;
