@@ -17,7 +17,7 @@ import Link from 'next/link';
 
 const WebTier = ({ name, price, description, features, buttonText }: any) => {
   return (
-    <Card className="flex flex-col h-full bg-[#111111] border-zinc-800">
+    <Card className="flex flex-col h-full bg-[#111111] border-zinc-800 hover:border-zinc-600">
       <CardHeader className="text-center space-y-4">
         <CardTitle className="text-4xl font-bold text-white">{name}</CardTitle>
         <CardDescription className="text-2xl text-zinc-400">${price} per month</CardDescription>

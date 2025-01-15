@@ -67,14 +67,6 @@ export default function ProductsPage() {
                     ))}
                   </ul>
                 </CardContent>
-                <CardFooter className="px-8 pb-8">
-                  <Button 
-                    className="w-full gap-2 border-1 border-zinc-700 bg-zinc-900 group"
-                  >
-                    View Plans
-                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                  </Button>
-                </CardFooter>
               </Card>
             </Link>
           ))}
