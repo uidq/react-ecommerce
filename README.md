@@ -28,6 +28,8 @@ npm run dev
 
 # Pictures of the Website
 
+**These pictures were taken at 3440x1080 Resolution**
+
 Main page (15.1.2025)
 ![Screenshot 2025-01-15 154126](https://github.com/user-attachments/assets/e5bb6171-0f83-4f5a-a0e9-6caecf4e8cfe)
 
