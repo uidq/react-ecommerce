@@ -11,8 +11,13 @@
 
 # How can i run it?
 
+First, do this in the folder you have the files at.
 ```
 npm install
+```
+
+After the first step, do this.
+```
 npm run dev
 ```
 
