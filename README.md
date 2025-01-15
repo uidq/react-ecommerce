@@ -5,7 +5,7 @@
 
 # Requirements
 
-- Knowledge of React & TS
+- Knowledge of React Documentation & TS
 - Node.js
 - npm
 
