@@ -71,7 +71,7 @@ export default function Home() {
                 icon: <Star className="w-6 h-6" />
               }
             ].map((feature, index) => (
-              <Card key={index} className="border-1 bg-[#111111] shadow-lg">
+              <Card key={index} className="border-1 bg-[#111111] shadow-lg hover:border-zinc-600 transition-all duration-300">
                 <CardHeader>
                   <div className="w-12 h-12 bg-zinc-900 rounded-lg flex items-center justify-center mb-4">
                     {feature.icon}

@@ -8,6 +8,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+import Footer from '@/components/footer';
+
 export default function FAQ() {
   const faqs = [
     {
@@ -91,6 +93,7 @@ export default function FAQ() {
           </Link>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

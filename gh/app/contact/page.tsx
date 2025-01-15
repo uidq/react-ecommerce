@@ -2,7 +2,10 @@ import React from 'react';
 import { title } from "@/components/primitives";
 import { Button } from "@nextui-org/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, ArrowRight } from "lucide-react";
+import Link from 'next/link';
+
+import Footer from '@/components/footer';
 
 export default function ContactPage() {
   const contactMethods = [
@@ -95,6 +98,25 @@ export default function ContactPage() {
           </CardContent>
         </Card>
       </div>
+      
+      
+      <section className="border-t border-zinc-800 bg-[#111111]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
+          <h2 className="text-3xl font-bold mb-4">
+            Still have questions?
+          </h2>
+          <p className="text-xl text-gray-400 mb-8">
+            Contact our support team for personalized assistance with any concerns.
+          </p>
+          <Link href="/contact">
+            <Button size="lg" className="gap-2 border-1 border-zinc-700 bg-zinc-900">
+              Contact Support <ArrowRight className="w-4 h-4" />
+            </Button>
+          </Link>
+        </div>
+      </section>
+
+      <Footer />
     </div>
   );
 }
