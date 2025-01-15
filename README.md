@@ -11,7 +11,7 @@
 
 # How can i run it?
 
-First, do this in the folder you have the files at.
+First, do this in the folder you have the files at with a CMD. 
 ```
 npm install
 ```
