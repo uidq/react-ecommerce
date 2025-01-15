@@ -12,6 +12,10 @@ export const siteConfig = {
       label: "Products",
       href: "/products",
     },
+    {
+      label: "Contact Us",
+      href: "/contact",
+    },
   ],
   navMenuItems: [
     {
@@ -22,9 +26,12 @@ export const siteConfig = {
       label: "Products",
       href: "/products",
     },
+    {
+      label: "Contact Us",
+      href: "/contact",
+    },
   ],
   links: {
     github: "https://github.com/uidbypass",
-    discord: "https://discord.gg/",
   },
 };
