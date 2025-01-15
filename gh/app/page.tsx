@@ -1,6 +1,7 @@
 import { Button } from '@nextui-org/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight, Laptop, Lock, Zap, Shield, Star } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -16,9 +17,11 @@ export default function Home() {
                 Host your needs securely and anonymously with our cutting-edge VPS solutions and intuitive management tools, designed to make hosting faster and more reliable than ever.
               </p>
               <div className="flex justify-center gap-4">
-                <Button size="lg" className="gap-2 bg-zinc-900 border-1 border-zinc-700 hover-zinc-500">
-                  Get Started <ArrowRight className="w-4 h-4" />
-                </Button>
+                <Link href={"/products"}>
+                  <Button size="lg" className="gap-2 border-1 border-zinc-700 bg-zinc-900">
+                    Start Building <ArrowRight className="w-4 h-4" />
+                  </Button>
+                </Link>
                 <Button size="lg" variant="bordered" className='border-1'>
                   Learn More
                 </Button>
@@ -90,9 +93,11 @@ export default function Home() {
           <p className="text-xl text-gray-600 mb-8">
             Join thousands of developers building amazing applications.
           </p>
-          <Button size="lg" className="gap-2 border-1 border-zinc-700 bg-zinc-900">
-            Start Building <ArrowRight className="w-4 h-4" />
-          </Button>
+          <Link href={"/products"}>
+            <Button size="lg" className="gap-2 border-1 border-zinc-700 bg-zinc-900">
+              Start Building <ArrowRight className="w-4 h-4" />
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
