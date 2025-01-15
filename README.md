@@ -11,7 +11,10 @@
 
 # How can i run it?
 
-- You should know how to do that already.
+\`\`\`
+npm install
+npm run dev
+\`\`\`
 
 # Thoughts on my design that i could've made better
 
