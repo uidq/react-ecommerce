@@ -132,7 +132,7 @@ export default function VPSPage() {
     <div className="min-h-screen">
       <div className="max-w-[1400px] mx-auto px-4 py-24">
         <div className="text-center mb-20">
-          <h1 className={`${title({ size: "lg" })} text-white`}>Products</h1>
+          <h1 className={`${title({ size: "lg" })} text-white`}>Pricing</h1>
           <p className="mt-6 text-2xl text-zinc-400">
             Choose the perfect plan for your needs. No hidden fees.
           </p>
