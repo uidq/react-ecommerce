@@ -33,17 +33,14 @@ npm run dev
 
 **These pictures were taken at 3440x1080 Resolution**
 
-Main page (15.1.2025)
+Main page (16.1.2025)
 ![Screenshot 2025-01-16 124918](https://github.com/user-attachments/assets/20065800-4661-41c3-b425-c9e6a51357e5)
 
-Products Page (15.1.2025)
-![Screenshot 2025-01-15 154319](https://github.com/user-attachments/assets/d65e4a21-bc67-4421-95fc-fb036c284c52)
+Products Page (16.1.2025)
+![Screenshot 2025-01-16 125743](https://github.com/user-attachments/assets/435ca44a-57ec-4f79-ab8a-3d63f80a9f6a)
 
 Contact Page (15.1.2025)
 ![Screenshot 2025-01-15 154357](https://github.com/user-attachments/assets/46335165-ff74-461d-baac-f615700435d6)
-
-Product Page (15.1.2025)
-![Screenshot 2025-01-15 154431](https://github.com/user-attachments/assets/2632130a-54f9-41e0-a75d-cc2b03865ac2)
 
 Documentation Page (15.1.2025)
 ![Screenshot 2025-01-15 210903](https://github.com/user-attachments/assets/32ddf393-0b2b-4a9b-872e-0a3bdd246055)
@@ -51,4 +48,4 @@ Documentation Page (15.1.2025)
 Status Page (15.1.2025)
 ![Screenshot 2025-01-15 230350](https://github.com/user-attachments/assets/6469552a-5608-4483-a1a4-45a54935fa2c)
 
-Every product page will look the same until i update them to have something unique for each one of them, i just have to think whats that unique going to be.
+Every product page has their own falling icons on their background.
