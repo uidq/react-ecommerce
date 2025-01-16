@@ -10,7 +10,7 @@ const StatusDashboard = () => {
   const generateUptimeData = (baseUptime: any) => {
     return Array.from({ length: 24 }, (_, i) => ({
       hour: i,
-      uptime: baseUptime + (Math.random() * 2 - 1)
+      uptime: Math.min(100, Math.max(90, baseUptime + (Math.random() * 2 - 1)))
     }));
   };
 
@@ -162,6 +162,7 @@ const StatusDashboard = () => {
                           domain={[90, 100]} 
                           stroke="#71717a"
                           tickFormatter={(value) => `${value}%`}
+                          allowDataOverflow={false}
                         />
                         <Tooltip content={<CustomTooltip />} />
                         <Line 
