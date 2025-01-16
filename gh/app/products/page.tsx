@@ -7,6 +7,8 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Server, Cloud, Globe2, ArrowRight, Check, Star, Shield, Zap } from "lucide-react";
 import Link from 'next/link';
 
+import AnimatedGradientText from '@/components/animated-text';
+
 export default function ProductsPage() {
   const products = [
     {
@@ -81,9 +83,7 @@ export default function ProductsPage() {
               <Globe2 className="h-8 w-8 text-purple-500 animate-pulse delay-75" />
               <Cloud className="h-8 w-8 text-green-500 animate-pulse delay-150" />
             </div>
-            <h1 className={`${title({ size: "lg" })} bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500`}>
-              Our Products
-            </h1>
+              <AnimatedGradientText as="h1" className="text-6xl">Our Products</AnimatedGradientText>
             <p className="mt-6 text-2xl text-zinc-400">
               Choose from our range of premium hosting solutions
             </p>

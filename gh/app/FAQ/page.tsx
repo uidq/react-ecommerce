@@ -13,6 +13,8 @@ import {
 
 import Footer from '@/components/footer';
 
+import AnimatedGradientText from '@/components/animated-text';
+
 export default function FAQ() {
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -74,9 +76,7 @@ export default function FAQ() {
             <div className="flex justify-center mb-6">
               <HelpCircle className="w-16 h-16 text-blue-500 animate-bounce" />
             </div>
-            <h1 className="text-4xl font-bold tracking-tight sm:text-6xl mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-              Frequently Asked Questions
-            </h1>
+              <AnimatedGradientText as="h1" className="text-6xl">Frequently Asked Questions</AnimatedGradientText>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-12">
               Find answers to common questions about our hosting solutions, security features, and platform capabilities.
             </p>
@@ -128,9 +128,7 @@ export default function FAQ() {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
-          <h2 className="text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-            Still have questions?
-          </h2>
+            <AnimatedGradientText as="h2" className="text-4xl">Still have questions?</AnimatedGradientText>
           <p className="text-xl text-gray-400 mb-8">
             Contact our support team for personalized assistance with any concerns.
           </p>

@@ -15,6 +15,8 @@ import {
 import { Check, CreditCard, Building2, User, Globe, Globe2, Sparkles, Shield, Server, Cloud } from "lucide-react";
 import Link from 'next/link';
 
+import AnimatedGradientText from '@/components/animated-text';
+
 interface GlobeProps {
   id: number;
   left: number;
@@ -242,9 +244,7 @@ export default function CloudPage() {
       <FallingServers />
       <div className="max-w-[1400px] mx-auto px-4 py-24 relative z-10">
         <div className="text-center mb-20">
-          <h1 className={`${title({ size: "lg" })} bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500`}>
-            Pricing
-          </h1>
+            <AnimatedGradientText as="h1" className="text-6xl">Pricing</AnimatedGradientText>
           <p className="mt-6 text-2xl text-zinc-400">
             Choose the perfect plan for your needs. No hidden fees.
           </p>

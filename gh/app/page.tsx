@@ -141,9 +141,7 @@ export default function Home() {
 
       <div className="bg-gradient-to-t from-[#111111] to-[#0a0a0a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
-          <h2 className="text-3xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-            Ready to get started?
-          </h2>
+            <AnimatedGradientText as="h2" className="text-3xl">Ready to get started?</AnimatedGradientText>
           <p className="text-xl text-gray-400 mb-8">
             Join thousands of developers building amazing applications.
           </p>
