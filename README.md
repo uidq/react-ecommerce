@@ -49,3 +49,7 @@ Status Page (15.1.2025)
 ![Screenshot 2025-01-15 230350](https://github.com/user-attachments/assets/6469552a-5608-4483-a1a4-45a54935fa2c)
 
 Every product page has their own falling icons on their background.
+
+# To-do
+
+- Staus page having a Graph of the uptime.
