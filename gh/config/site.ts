@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Anonymous Hosting",
-  description: "Anonhosting.",
+  name: "Resell.lol",
+  description: "Currently showing a template made by uid.",
   navItems: [
     {
       label: "Home",
