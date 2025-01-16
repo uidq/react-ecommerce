@@ -42,12 +42,12 @@ Products Page (16.1.2025)
 Contact Page (16.1.2025)
 ![Screenshot 2025-01-16 170534](https://github.com/user-attachments/assets/f3c8ae9b-7cc7-49db-bd2e-c4a69ae11ba9)
 
-
-Documentation Page (15.1.2025)
+Documentation Page (16.1.2025)
 ![Screenshot 2025-01-16 132915](https://github.com/user-attachments/assets/b583313f-3b2c-4f6b-9639-ed627be6e802)
 
-Status Page (15.1.2025)
-![Screenshot 2025-01-15 230350](https://github.com/user-attachments/assets/6469552a-5608-4483-a1a4-45a54935fa2c)
+Status Page (16.1.2025)
+![Screenshot 2025-01-16 171937](https://github.com/user-attachments/assets/cb18b5ef-9317-4f23-a4cd-aea00e36aa4c)
+
 
 Every product page has their own falling icons on their background.
 
