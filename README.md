@@ -1,3 +1,6 @@
+# Want to see the live version of it?
+- go to https://resell.lol/ and you can view the live version of the website, with the latest updates & changes made to it.
+
 # Overview
 
 - It's powered by NextUI
