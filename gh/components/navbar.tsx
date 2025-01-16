@@ -7,7 +7,6 @@ import {
   NavbarItem,
   NavbarMenuItem,
 } from "@nextui-org/navbar";
-import { Button } from "@nextui-org/button";
 import { Link } from "@nextui-org/link";
 import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
@@ -15,10 +14,7 @@ import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import {
-  TwitterIcon,
   GithubIcon,
-  DiscordIcon,
-  HeartFilledIcon,
 } from "@/components/icons";
 
 export const Navbar = () => {
@@ -26,18 +22,19 @@ export const Navbar = () => {
     <nav className="border-b bg-[#0a0a0a]">
       <NextUINavbar maxWidth="xl" position="sticky">
         <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
-          <NavbarBrand as="li" className="gap-3 max-w-fit">
+          <NavbarBrand className="gap-3 max-w-fit">
             <NextLink className="flex justify-start items-center gap-1" href="/">
               <p className="font-bold text-inherit">Anonymous Hosting</p>
             </NextLink>
           </NavbarBrand>
           <ul className="hidden lg:flex gap-4 justify-start ml-2">
+
             {siteConfig.navItems.map((item) => (
               <NavbarItem key={item.href}>
                 <NextLink
                   className={clsx(
                     linkStyles({ color: "foreground" }),
-                    "data-[active=true]:text-primary data-[active=true]:font-medium",
+                    "data-[active=true]:text-primary data-[active=true]:font-medium"
                   )}
                   color="foreground"
                   href={item.href}
@@ -59,7 +56,7 @@ export const Navbar = () => {
             </Link>
           </NavbarItem>
         </NavbarContent>
-  
+
         <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
           <Link isExternal aria-label="Github" href={siteConfig.links.github}>
             <GithubIcon className="text-default-500" />
@@ -72,7 +69,7 @@ export const Navbar = () => {
             {siteConfig.navMenuItems.map((item, index) => (
               <NavbarMenuItem key={`${item}-${index}`}>
                 <Link
-                  href="#"
+                  href={item.href || "#"}
                   size="lg"
                 >
                   {item.label}

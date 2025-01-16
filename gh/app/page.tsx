@@ -24,9 +24,11 @@ export default function Home() {
                     Start Building <ArrowRight className="w-4 h-4" />
                   </Button>
                 </Link>
-                <Button size="lg" variant="bordered" className='border-1'>
-                  Learn More
-                </Button>
+                <Link href={"/about"}>
+                  <Button size="lg" variant="bordered" className='border-1'>
+                    Learn More
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
