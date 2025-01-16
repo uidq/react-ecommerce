@@ -43,9 +43,14 @@ Contact Page (15.1.2025)
 ![Screenshot 2025-01-15 154357](https://github.com/user-attachments/assets/46335165-ff74-461d-baac-f615700435d6)
 
 Documentation Page (15.1.2025)
-![Screenshot 2025-01-15 210903](https://github.com/user-attachments/assets/32ddf393-0b2b-4a9b-872e-0a3bdd246055)
+![Screenshot 2025-01-16 132915](https://github.com/user-attachments/assets/b583313f-3b2c-4f6b-9639-ed627be6e802)
 
 Status Page (15.1.2025)
 ![Screenshot 2025-01-15 230350](https://github.com/user-attachments/assets/6469552a-5608-4483-a1a4-45a54935fa2c)
 
 Every product page has their own falling icons on their background.
+
+# To-do
+
+- Staus page having a Graph of the uptime.
+- Gradient titles to have a animation
