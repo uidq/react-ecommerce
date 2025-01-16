@@ -195,7 +195,7 @@ export default function WebPage() {
   const pricingTiers = [
     {
       name: "Starter",
-      price: "29",
+      price: "2.50",
       description: "Perfect for individuals and small projects",
       features: [
         "Up to 5 projects",
@@ -208,7 +208,7 @@ export default function WebPage() {
     },
     {
       name: "Professional",
-      price: "79",
+      price: "5",
       description: "Ideal for growing businesses",
       features: [
         "Unlimited projects",
@@ -222,7 +222,7 @@ export default function WebPage() {
     },
     {
       name: "Enterprise",
-      price: "199",
+      price: "9",
       description: "For large organizations with advanced needs",
       features: [
         "Unlimited everything",

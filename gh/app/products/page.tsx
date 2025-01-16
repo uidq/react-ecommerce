@@ -22,7 +22,7 @@ export default function ProductsPage() {
         "24/7 Support",
         "99.9% Uptime SLA"
       ],
-      price: "29",
+      price: "10",
       popular: true,
       highlight: "Most Popular Choice",
       color: "text-blue-500",
@@ -42,7 +42,7 @@ export default function ProductsPage() {
         "Unlimited Bandwidth",
         "5 Databases"
       ],
-      price: "19",
+      price: "2.50",
       popular: false,
       highlight: "Great for Startups",
       color: "text-green-500",
@@ -62,7 +62,7 @@ export default function ProductsPage() {
         "End-to-end Encryption",
         "API Access"
       ],
-      price: "39",
+      price: "3",
       popular: false,
       highlight: "Enterprise Ready",
       color: "text-purple-500",
@@ -72,8 +72,8 @@ export default function ProductsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a]">
-      <div className="bg-gradient-to-b from-[#111111] to-[#0a0a0a]">
+    <div className="min-h-screen">
+      <div className="bg-transparent">
         <div className="max-w-[1400px] mx-auto px-4 py-24">
           <div className="text-center mb-20">
             <div className="flex justify-center gap-4 mb-6">
