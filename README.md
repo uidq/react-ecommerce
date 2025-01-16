@@ -39,8 +39,9 @@ Main page (16.1.2025)
 Products Page (16.1.2025)
 ![Screenshot 2025-01-16 125743](https://github.com/user-attachments/assets/435ca44a-57ec-4f79-ab8a-3d63f80a9f6a)
 
-Contact Page (15.1.2025)
-![Screenshot 2025-01-15 154357](https://github.com/user-attachments/assets/46335165-ff74-461d-baac-f615700435d6)
+Contact Page (16.1.2025)
+![Screenshot 2025-01-16 170534](https://github.com/user-attachments/assets/f3c8ae9b-7cc7-49db-bd2e-c4a69ae11ba9)
+
 
 Documentation Page (15.1.2025)
 ![Screenshot 2025-01-16 132915](https://github.com/user-attachments/assets/b583313f-3b2c-4f6b-9639-ed627be6e802)
