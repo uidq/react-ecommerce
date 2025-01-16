@@ -53,3 +53,4 @@ Every product page has their own falling icons on their background.
 # To-do
 
 - Staus page having a Graph of the uptime.
+- Gradient titles to have a animation
