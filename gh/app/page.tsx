@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ArrowRight, Laptop, Lock, Zap, Shield, Star, Book, Activity, Users, Server } from 'lucide-react';
 import Link from 'next/link';
 import Footer from '@/components/footer';
+import AnimatedGradientText from '@/components/animated-text';
 
 export default function Home() {
   return (
@@ -14,9 +15,7 @@ export default function Home() {
               <div className="inline-block animate-bounce mb-4">
                 <Shield className="w-12 h-12 text-blue-500" />
               </div>
-              <h1 className="text-4xl font-bold tracking-tight sm:text-6xl mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-                Build something amazing
-              </h1>
+              <AnimatedGradientText as="h1" className="sm:text-6xl">Build something amazing</AnimatedGradientText>
               <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-8">
                 Host your needs securely and anonymously with our cutting-edge VPS solutions and intuitive management tools, designed to make hosting faster and more reliable than ever.
               </p>
@@ -90,9 +89,7 @@ export default function Home() {
 
       <div className="border-t border-b border-zinc-800 bg-[#0a0a0a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-          <h2 className="text-3xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-            Everything you need to secure and maintain anonymous hosting
-          </h2>
+            <AnimatedGradientText as="h2" className="text-4xl">Everything you need to secure and maintain anonymous hosting</AnimatedGradientText>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
