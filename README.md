@@ -1,3 +1,6 @@
+# Want to see the live version of it?
+- go to https://resell.lol/ and you can view the live version of the website, with the latest updates & changes made to it.
+
 # Overview
 
 - It's powered by NextUI
@@ -31,7 +34,7 @@ npm run dev
 **These pictures were taken at 3440x1080 Resolution**
 
 Main page (15.1.2025)
-![Screenshot 2025-01-15 154126](https://github.com/user-attachments/assets/e5bb6171-0f83-4f5a-a0e9-6caecf4e8cfe)
+![Screenshot 2025-01-16 124918](https://github.com/user-attachments/assets/20065800-4661-41c3-b425-c9e6a51357e5)
 
 Products Page (15.1.2025)
 ![Screenshot 2025-01-15 154319](https://github.com/user-attachments/assets/d65e4a21-bc67-4421-95fc-fb036c284c52)
