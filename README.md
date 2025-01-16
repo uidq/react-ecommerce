@@ -42,7 +42,7 @@ Products Page (16.1.2025)
 Contact Page (16.1.2025)
 ![Screenshot 2025-01-16 170534](https://github.com/user-attachments/assets/f3c8ae9b-7cc7-49db-bd2e-c4a69ae11ba9)
 
-Documentation Page (15.1.2025)
+Documentation Page (16.1.2025)
 ![Screenshot 2025-01-16 132915](https://github.com/user-attachments/assets/b583313f-3b2c-4f6b-9639-ed627be6e802)
 
 Status Page (16.1.2025)
